@@ -20,21 +20,16 @@ Observe in the example above that, following the PoolParty Excel format rules, t
 
 In correspondence, there is a mapping of items from a not clearly-established source format to the required PoolParty format:
 
-o   The level 1 item under “Classes” \(i.e., 1. Beverage\), becomes a **scheme** in the PoolParty Excel format.
-
-o   The lower-level items under “Classes”, “Top Categories” and “Sub Categories” \(e.g., 1.1 Alcoholic beverage, 1.2.1 Coffee or 1.2.2.1 Coconut milk\), all become a **concept** in the PoolParty Excel format and inherit their hierarchy from the preceding columns. Make sure that each concept and scheme is on a separate line.
-
-o   Each item in the list under “Synonyms” needs to be in a separate column headed as **altLabel** in the PoolParty Excel format. If you have a multilingual taxonomy, you will need to specify the language, e.g. **altLabel@fr** for French or **altLabel@ar** for Arabic; if you don’t specify the language, it is assumed the default language set in the PoolParty project.
+* The level 1 item under “Classes” \(i.e., 1. Beverage\), becomes a **scheme** in the PoolParty Excel format.
+* The lower-level items under “Classes”, “Top Categories” and “Sub Categories” \(e.g., 1.1 Alcoholic beverage, 1.2.1 Coffee or 1.2.2.1 Coconut milk\), all become a **concept** in the PoolParty Excel format and inherit their hierarchy from the preceding columns. Make sure that each concept and scheme is on a separate line.
+* Each item in the list under “Synonyms” needs to be in a separate column headed as **altLabel** in the PoolParty Excel format. If you have a multilingual taxonomy, you will need to specify the language, e.g. **altLabel@fr** for French or **altLabel@ar** for Arabic; if you don’t specify the language, it is assumed the default language set in the PoolParty project.
 
 **NOTE:**
 
-o   The column headings in PoolParty Excel format are case sensitive.
-
-o   At the left of the red line, the columns are placed in a certain fixed order and that there is only a non-blank cell on each row; at the right of the red line, columns could appear in any order and  there are more than one non-blank cell in the same row.
-
-o   You don’t need to import the whole taxonomy at once using a single Excel import; you could \(and should\) use several Excel files to do partial imports at different levels of the taxonomy’s hierarchy. The PoolParty flexibility allows you to import just a sub-tree, that could be as simple as a list, into the taxonomy.
-
-o   You should follow strictly the rules for configuring such Excel sheets to be imported into PoolParty.
+* The column headings in PoolParty Excel format are case sensitive.
+* At the left of the red line, the columns are placed in a certain fixed order and that there is only a non-blank cell on each row; at the right of the red line, columns could appear in any order and  there are more than one non-blank cell in the same row.
+* You don’t need to import the whole taxonomy at once using a single Excel import; you could \(and should\) use several Excel files to do partial imports at different levels of the taxonomy’s hierarchy. The PoolParty flexibility allows you to import just a sub-tree, that could be as simple as a list, into the taxonomy.
+* You should follow strictly the rules for configuring such Excel sheets to be imported into PoolParty.
 
 o   Ensure you do not have hidden, non-printable characters in the sheets which could produce unexpected errors during and after an Excel sheet import. Make use of Excel functions to clean your data e.g. CLEAN\(\) or TRIM \(\).\[SR4\] 
 
