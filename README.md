@@ -15,7 +15,7 @@ PoolParty main purposes are:
 
 PoolParty provides the basic functionalities of thesaurus management and a consistent approach of auto-tagging. Based on semantic technology, it opens up to further developments in information technology, such as artificial intelligence in context of text mining, and linked open data/big data potentials.
 
-The acquired PoolParty license includes two servers: one test server for staging and development, and one production server for live use. There are no limits on the number of users or projects\[JH1\] \[SR2\] .  
+The acquired PoolParty license includes two servers: one test server for staging and development, and one production server for live use. There are no limits on the number of users or projects. 
 
 The test server allows to maintain/develop vocabularies and train the extraction models independent from production server and requires a later synchronization procedure to update the live server.
 
