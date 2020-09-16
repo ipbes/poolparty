@@ -2,7 +2,7 @@
 
 It is needed to have at least a taxonomy describing your knowledge domain to use PoolParty. So, there are two possible scenarios:
 
-## MEA has a taxonomy, but not yet in PoolParty”
+## MEA has a taxonomy, but not yet in PoolParty
 
 It is convenient to use Excel sheets to express the whole taxonomy or parts of it in the [PoolParty Excel format](https://help.poolparty.biz/pp7/user-guide-for-knowledge-engineers/basic-features/import-export-and-reporting-with-poolparty/poolparty-excel-import-export-overview/the-poolparty-excel-format). This a handy and easy way to put your taxonomy into PoolParty. Please note that the use of excel is practical for importing terms into PoolParty but does not allow you to relate terms \(concepts\) to each other.
 
