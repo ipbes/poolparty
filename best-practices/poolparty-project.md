@@ -30,7 +30,7 @@ You can import your taxonomy’s items at different levels of the project Hierar
 
 Something similar happens if you right-click on a lower level in the Hierarchy Tree, i.e., on an existing concept scheme, top concept or a concept previously created in the PoolParty taxonomy, Excel Subtree Import becomes available from the appearing context menu for importing concepts under that level. For instance, let’s suppose that you have already created in PoolParty the project named “MEA Project” with two concept scheme or thesauri named “MEA Legal Scheme” and “MEA Scientific Scheme” that, in turn, have the top concept “National legislation” under the former and the two top concepts “Assessments”, and “Publications” under the later.
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Now, if you right-click on the top concept “National legislation”, you can choose the Excel Subtree Import option to create narrower concepts \(e.g. “Country names”\):
 
@@ -38,7 +38,7 @@ Now, if you right-click on the top concept “National legislation”, you can c
 
 Using the Excel import function, you not only can add new data to your taxonomy, but can also update existing data or add labels and relations to the taxonomy. A good approach is to partially create the hierarchy within PoolParty , even including some concepts, and then export files in Excel format by right-clicking on a node \(Scheme, Top concept or Concept\) of that hierarchy. This will give you a properly formatted Excel sheet with the required columns which you can later modify or expand accordingly to your needs by adding your new concepts or synonyms, definitions, etc., and next using the resulting Excel sheet for importing or adding new data. You can import your new data by right-clicking on any taxonomy’s node you get a context menu and, at the Import option, you can select Excel Project Import or Excel Subtree Import \(depending on the level of the node\):
 
-![Import at project level](../.gitbook/assets/image%20%2826%29.png)
+![Import at project level](../.gitbook/assets/image%20%2827%29.png)
 
 Import at Project level
 
@@ -64,7 +64,7 @@ It is very important to make sure you check that box when adding new data for av
 
 You can edit the metadata, labels, relations etc. of your project, concept schemes and concepts. At the concept's Detail View, you can find some inline editing functions:
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 It is a good practice to add alternative labels as synonyms of the preferred label for the concept and also fill its Definition field with a verbose description of the concept.
 
@@ -124,7 +124,7 @@ Thus, you obtain a result like this:
 
 That, finally, looks like this in the concept's Detail View \(zoomed\):
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 Or in the full view:
 
@@ -148,7 +148,7 @@ The better protection for your data is a good backup. Additionally, you could us
 
 Although you can use Excel exports for working purposes, it is recommended to use RDF exports for backup entire project \(be sure to check the corresponding box\). RDF Project Export using the export format Trix or Trig will ensure that the relations and mappings, notes added to concepts and subproperty definitions are exported.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 An archive with the extension .ppar is generated holding all data to copy, move or restore your project. By default, the file name is 'pp_project_.ppar'.
 
