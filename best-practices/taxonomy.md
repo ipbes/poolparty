@@ -14,7 +14,7 @@ You first need to define\[SR2\]  your taxonomy. It is highly recommended that, t
 
 The majority of MEAs will choose the excel import, a limited view of their individual vocabulary, indicating the hierarchy, alternative labels, definitions and translations. The [PoolParty Excel format](https://help.poolparty.biz/pp7/user-guide-for-knowledge-engineers/basic-features/import-export-and-reporting-with-poolparty/poolparty-excel-import-export-overview/the-poolparty-excel-format) follows a strict template, that needs to be used for PoolParty. A sample of taxonomy representation in PoolParty Excel format could look like this:
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 Observe in the example above that, following the PoolParty Excel format rules, taxonomy subject’s column headers like “Classes”, “Top Categories”, “Sub Categories”, “Synonyms” and “Number Code” have become into “**scheme**”, “**concept**”, “**altLabel**” and “**notation**” \(case-sensitive\) column headers, respectively.
 
