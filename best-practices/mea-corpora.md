@@ -6,7 +6,7 @@ A taxonomy by itself is not enough expressive to understand how the contents are
 
 ## How a corpus can provide benefits to MEA thesauri?”
 
-###  o Corpus Management 
+###  Corpus Management 
 
 The corpus management functionality in PoolParty supports you in extending thesauri with relevant terms derived from contents such as documents, web sites, RSS feeds or DBpedia resources matching the domain of your thesauri. Concepts, terms and phrases are extracted from those contents, which then are matched against the concepts in thesauri and subsequently scored.
 

@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Best practices and suggestions](best-practices-and-suggestions.md)
-* [General suggestions and recommendations](general-suggestions-and-recommendations.md)
 
 ## Best practices
 
@@ -10,6 +8,7 @@
 * [PoolParty Project](best-practices/poolparty-project.md)
 * [MEA corpora](best-practices/mea-corpora.md)
 * [Untitled](best-practices/untitled.md)
+* [General suggestions and recommendations](best-practices/general-suggestions-and-recommendations.md)
 
 ## Definitions
 
