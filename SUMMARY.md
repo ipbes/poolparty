@@ -2,11 +2,14 @@
 
 * [Introduction](README.md)
 
+## Getting started
+
+* [Taxonomy](getting-started/taxonomy.md)
+* [PoolParty Project](getting-started/poolparty-project.md)
+* [MEA corpora](getting-started/mea-corpora.md)
+
 ## Best practices
 
-* [Taxonomy](best-practices/taxonomy.md)
-* [PoolParty Project](best-practices/poolparty-project.md)
-* [MEA corpora](best-practices/mea-corpora.md)
 * [General suggestions and recommendations](best-practices/general-suggestions-and-recommendations.md)
 
 ## Definitions

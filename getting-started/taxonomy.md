@@ -24,16 +24,17 @@ In correspondence, there is a mapping of items from a not clearly-established so
 * The lower-level items under “Classes”, “Top Categories” and “Sub Categories” \(e.g., 1.1 Alcoholic beverage, 1.2.1 Coffee or 1.2.2.1 Coconut milk\), all become a **concept** in the PoolParty Excel format and inherit their hierarchy from the preceding columns. Make sure that each concept and scheme is on a separate line.
 * Each item in the list under “Synonyms” needs to be in a separate column headed as **altLabel** in the PoolParty Excel format. If you have a multilingual taxonomy, you will need to specify the language, e.g. **altLabel@fr** for French or **altLabel@ar** for Arabic; if you don’t specify the language, it is assumed the default language set in the PoolParty project.
 
-**NOTE:**
-
+{% hint style="info" %}
 * The column headings in PoolParty Excel format are case sensitive.
 * At the left of the red line, the columns are placed in a certain fixed order and that there is only a non-blank cell on each row; at the right of the red line, columns could appear in any order and  there are more than one non-blank cell in the same row.
 * You don’t need to import the whole taxonomy at once using a single Excel import; you could \(and should\) use several Excel files to do partial imports at different levels of the taxonomy’s hierarchy. The PoolParty flexibility allows you to import just a sub-tree, that could be as simple as a list, into the taxonomy.
 * You should follow strictly the rules for configuring such Excel sheets to be imported into PoolParty.
+* Ensure you do not have hidden, non-printable characters in the sheets which could produce unexpected errors during and after an Excel sheet import. Make use of Excel functions to clean your data e.g. CLEAN\(\) or TRIM \(\).
+{% endhint %}
 
-o   Ensure you do not have hidden, non-printable characters in the sheets which could produce unexpected errors during and after an Excel sheet import. Make use of Excel functions to clean your data e.g. CLEAN\(\) or TRIM \(\).\[SR4\] 
-
-**WARNING**: When using PoolParty Excel, you should keep in mind that **SKOS** **relations** **are not available in the Excel export**. Hence, if you export your project with defined concept mappings to Excel, you will not be saving those mappings and, if you try to re-import the project from that Excel export file as a new project, the resulting one will not contain the original mappings.
+{% hint style="warning" %}
+ When using PoolParty Excel, you should keep in mind that **SKOS** **relations** **are not available in the Excel export**. Hence, if you export your project with defined concept mappings to Excel, you will not be saving those mappings and, if you try to re-import the project from that Excel export file as a new project, the resulting one will not contain the original mappings.
 
 Importing relations only works with the [update import feature](https://help.poolparty.biz/display/doc/Add+Data+via+Excel). This is because relations can only be created between concepts that already exist in the taxonomy. This means that in order to import an Excel taxonomy that includes relations between concepts, one has to first import only the concepts involved and, in a second import, add the relations. If you need to update mappings using [**Excel import**](https://help.poolparty.biz/faq/faq-s/excel-import-export/how-can-i-import-relations-with-excel-import), you should observe the proper PoolParty Excel Format rules.
+{% endhint %}
 
