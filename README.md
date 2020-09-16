@@ -1,2 +1,4 @@
-# poolparty
+# Introduction
+
 Documentation for PoolParty
+
