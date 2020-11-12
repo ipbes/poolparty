@@ -29,5 +29,11 @@ Nonetheless, feel free to go deeper inside the subject. Please use the following
 
 Besides, the PoolParty manual is linked to the interface and accessible online. It provides screenshots, tutorials and explanations per chapter. Aspects can be easily retrieved with full-text search functionality that guides you to the respective chapter.
 
-For easy reference, this document includes links to the respective chapters within the manual. For access to PoolParty, please contact Kelly Kabiru and indicate relevant project and editorial work you plan to do.
+{% hint style="info" %}
+For access to PoolParty, please contact Kelly Kabiru and indicate relevant project and editorial work you plan to do.
+{% endhint %}
+
+{% hint style="warning" %}
+Contact information of a taxonomist will be shared shortly
+{% endhint %}
 
