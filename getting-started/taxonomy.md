@@ -8,7 +8,7 @@ It is convenient to use Excel sheets to express the whole taxonomy or parts of i
 
 ## MEA does not even have a taxonomy
 
-You first need to define\[SR2\]  your taxonomy. It is highly recommended that, to begin with, you create the taxonomy as simple as it could be, by including the main subjects in a hierarchical structure; later, with PoolParty aid, you will be able to extend, enhance and improve it.
+You first need to define your taxonomy. It is highly recommended that, to begin with, you create the taxonomy as simple as it could be, by including the main subjects in a hierarchical structure; later, with PoolParty aid, you will be able to extend, enhance and improve it.
 
 ## How can a taxonomy be represented using the PoolParty Excel format?
 
