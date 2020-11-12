@@ -44,26 +44,5 @@ The quality of extracted terms depends strongly on the provided corpus. A corpus
 
 As it is expected in MEAs activity, it is highly probable that it is desired to use several languages in a project. You should avoid selecting content for corpus analysis that contains several languages in the same document or across documents. If you want to use PoolParty corpus management functionality with different languages, you should include corpus versions corresponding to those languages. For instance, a “Scientific Corpus” with English contents, a “Cuerpo Científico” with Spanish contents, etc.
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
-
 
 
