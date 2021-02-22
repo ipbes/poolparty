@@ -90,7 +90,7 @@ By default, there are available several Linked Data Sources in PoolParty from LO
 
 The same applies to published PoolParty projects \(for instance, those that are part of the predefined PoolParty group “Public”, e.g. LEO Thesaurus or BRS Trial Project in our current test server\).
 
-## o Linking LOD and PP sources to a project
+## Linking LOD and PP sources to a project
 
  In order to mapping concepts in your project, It is a pre-requisite to previously have used the Linked Data Administration or Linked Projects in the Advanced menu from the PoolParty’s main menu to actually link some LOD sources or PP sources, respectively. You should have into account that the Advanced menu is only available for users with the PoolPartyAdmin user role.
 
@@ -130,7 +130,7 @@ Or in the full view:
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
-## o “Link to PP” 
+## Link to Pool Party
 
 Alternatively, if you click on “Link to PP”, you can choose matching labels to the concept from the previously linked PoolParty projects in an automatically generated search list, to be considered in the mappings:
 
